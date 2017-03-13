@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KawaiiHTTP", "KawaiiHTTP\KawaiiHTTP.csproj", "{B15F569A-2AF2-4F23-BC85-39D9F519FD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KawaiiTester", "KawaiiTester\KawaiiTester.csproj", "{246B6F72-B8DE-436E-A8C1-EF58ED37960B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15F569A-2AF2-4F23-BC85-39D9F519FD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15F569A-2AF2-4F23-BC85-39D9F519FD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15F569A-2AF2-4F23-BC85-39D9F519FD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15F569A-2AF2-4F23-BC85-39D9F519FD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246B6F72-B8DE-436E-A8C1-EF58ED37960B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246B6F72-B8DE-436E-A8C1-EF58ED37960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246B6F72-B8DE-436E-A8C1-EF58ED37960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246B6F72-B8DE-436E-A8C1-EF58ED37960B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,104 @@
+/*
+#8d7374
+#f9e4f7
+#d8b7d4
+#875698
+#6b3b61
+*/
+
+@font-face {
+	font-family: ubuntu;
+	src: url('Ubuntu-R.ttf');
+}
+
+body, html {
+	font-family: ubuntu;
+	background-color: #f9e4f7;
+	color: #875698;
+}
+
+a {
+	color: #875698;
+	margin: 0;
+	padding: 7px  0 7px 5px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+a:visited { color: #6b3b61; }
+tr:hover a, a:hover, a:active {  color: #d8b7d4; }
+
+.browser-head {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.kawaii-logo {
+	font-size: 1.5em;
+	position: absolute;
+	left: 25px;
+	top: 10px;
+}
+
+.filename-space 
+{
+	position: absolute;
+	top: calc(12px + .1em);
+	left: 175px;
+	font-size: 1.1em;
+}
+
+.browser-container{
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	height: calc(100% - 50px);
+	width: calc(100% - 50px);
+	background-color:transparent;
+}
+
+.browser-table {
+	width: 100%;
+}
+.browser-table td {
+	padding: 0;
+}
+.browser-table tr {
+	cursor: pointer;
+}
+
+.browser-table tr:hover{
+	background-color: #6b3b61;
+	color: #f9e4f7;
+}
+
+.fileicon-false, .fileicon-true {
+	background-position: center center;
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	
+	max-width: 30px;
+	width:30px;
+	padding: 0;
+}
+
+.fileicon-false div, .fileicon-true div {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 30px;
+	height: 25px;
+	
+}
+
+.fileicon-false {
+	background-image: url('/~kawaiicore/resource/folder.png');
+}
+
+.fileicon-true {
+	background-image: url('/~kawaiicore/resource/page.png');
+}
