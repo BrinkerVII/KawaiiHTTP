@@ -6,4 +6,4 @@ Some feature creep did get in, in the form of a semi-proxy kind of deal, it can 
 
 I decided to upload all of its source code to GitHub, maybe someone finds it useful for their own projects. There are some bugs in the source code, those are yours to find :) 
 
-Good luck and don't get bit by the dragons.
+Good luck and don't get bit by the dragons 🐉
